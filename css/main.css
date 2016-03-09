@@ -1,0 +1,52 @@
+html { 
+  background:linear-gradient(rgba(142, 68, 173, 0.5), rgba(142, 68, 173, 0.5)), url("../img/western_back.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+	color: #f1c40f;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	background-color: transparent;
+  	color: #ecf0f1;
+  	font-size: 20px;
+  	position: relative;
+}
+
+.navbar {
+	background-color: rgba(155, 89, 182,1);
+	text-shadow: 1px 1px #333
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-brand {
+	color:#fff;
+	text-shadow: 1px 1px #333
+}
+section {
+	padding: 2em;
+}
+footer{
+	border-top: solid #fff; 
+	background-color: #333;
+	padding: 0.7em;
+}
+
+span { 
+	text-align: left;
+}

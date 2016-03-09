@@ -1,0 +1,19 @@
+{
+	"name" : "hacknights-website",
+	"description" : "A website for Western HackNights, part of HackWestern",
+	"author" : "The HackNights Web Team - Monique, Joanna and Michael",
+	"homepage" : "https://www.hackwestern.com",
+	"repository" : "github.com/hackwestern/hacknights-website",
+	"license" : "MIT",
+	"dependencies" : {
+		"express" : "4.13.x",
+		"bootstrap" : "~3.3.x"
+		},
+	"devDependencies" : {
+		"browserify" : "10.2.x",
+		"express-session" : "1.12.x"
+	},
+	"scripts" : {
+		"start" : "node app.js"
+	}
+}
